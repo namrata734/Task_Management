@@ -1,0 +1,27 @@
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.input {
+  flex: 3;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 0px solid;
+  width: 650px;
+}
+
+.end {
+  flex: 3;
+  margin-left: 10px;
+  display: inline-block;
+  text-align: end;
+}
+.rightside {
+  justify-content: flex-end;
+  text-align: center;
+}
+button {
+  font-size: 25px;
+  color: rgb(105, 108, 110);
+}

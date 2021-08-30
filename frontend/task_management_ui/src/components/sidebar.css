@@ -1,0 +1,39 @@
+.sidebar {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+}
+
+.brandname {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.fontawsm {
+  padding-top: 20px;
+}
+
+.elements {
+  padding-top: 10px;
+  font-size: 17px;
+  color: #9a9a9a;
+}
+span {
+  padding-left: 10px;
+}
+button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+button.selected {
+  color: #00ffff;
+}
+.bottom {
+  padding-top: 20px;
+  padding-left: 10px;
+  align-self: baseline;
+}

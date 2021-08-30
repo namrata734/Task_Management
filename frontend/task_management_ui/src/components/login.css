@@ -1,0 +1,46 @@
+.items {
+  text-align: center;
+  font-family: poppins;
+}
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginInput {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid #cbdbea;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background: #329c89;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+}
+#tocontinue {
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 21px;
+}
+#nameemail {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  color: #999999;
+}

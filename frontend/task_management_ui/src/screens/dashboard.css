@@ -1,0 +1,108 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  flex: 2;
+}
+.rightside {
+  flex: 9;
+}
+
+.navbar {
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.todos {
+  display: flex;
+  flex-direction: row;
+}
+.status {
+  flex: 2;
+  justify-content: center;
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+  padding-top: 10px;
+  padding: 7px;
+  background: #f5f9f9;
+  border-radius: 15px;
+}
+#project {
+  flex: 3;
+  margin: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 101.1%;
+  /* or 24px */
+  text-align: left;
+  font-weight: bold;
+
+  letter-spacing: 0.05em;
+  display: inline;
+  color: #212121;
+}
+
+.add {
+  background: #ecf3f3;
+  border-radius: 50%;
+}
+
+.add:hover {
+  background-color: #d5d8d8;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo {
+  margin: 5px;
+  width: 250px;
+  height: 120px;
+  padding: 2px;
+  background: #ffffff;
+  box-shadow: 0px 0px 28px rgba(72, 174, 174, 0.07);
+  border-radius: 7px;
+  text-align: center;
+}
+
+.title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 137.1%;
+  /* or 19px */
+  padding: 2px;
+  margin-bottom: 5px;
+  color: #212121;
+}
+.description {
+  font-family: Poppins;
+  padding: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 137.1%;
+  /* or 16px */
+
+  color: #6b6b6b;
+}
+.inputs {
+  flex: 3;
+  display: inline;
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 12px;
+}
+input {
+  border-radius: 5px;
+  border-color: #575555;
+  margin-left: 5px;
+  margin-right: 5px;
+}

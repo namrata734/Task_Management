@@ -1,0 +1,45 @@
+.nav{
+  display: flex;
+}
+
+.items {
+  text-align: center;
+  font-family: poppins;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registerInput {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid #cbdbea;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background: #329c89;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+}
+#errormsg{
+  font-size: 12px;
+  color: red;
+}
